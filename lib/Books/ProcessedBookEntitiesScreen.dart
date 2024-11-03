@@ -34,7 +34,7 @@ class _ProcessedBookEntitiesScreenState extends State<ProcessedBookEntitiesScree
     _editableEntities = List<Map<String, String>>.from(widget.entities);
 
     // Initialize CutterNumberService with the base URL
-    cutterNumberService = CutterNumberService('https://cutter-number-backend-33dd1abc59a8.herokuapp.com');
+    cutterNumberService = CutterNumberService('YOUR-SECRET-API');
 
     // Store temporary values for Classification Number, Subjects, and Pagination
     temporaryClassificationNumber = _getEntityText('Classification Number');
