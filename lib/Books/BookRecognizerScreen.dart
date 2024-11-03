@@ -21,7 +21,7 @@ class _BookRecognizerScreenState extends State<BookRecognizerScreen> {
   late TextRecognizer textRecognizer; // Instance of TextRecognizer for extracting text
   String extractedText = ""; // Store all extracted texts in a single string
   TextEditingController textController = TextEditingController(); // Controller to manage the extracted text
-  final CohereClient cohereClient = CohereClient(apiKey: 'KWKkMQv23mgNkVp0FlYR6FhWY03mKtDQQ86U8a7H'); // Initialize the Cohere client
+  final CohereClient cohereClient = CohereClient(apiKey: 'YOUR-SECRET-API'); // Initialize the Cohere client
 
   @override
   void initState() {
@@ -53,7 +53,7 @@ class _BookRecognizerScreenState extends State<BookRecognizerScreen> {
   void processText() async {
     try {
       // Use the Gemini service to process the extracted text
-      final GeminiServiceBooks geminiService = GeminiServiceBooks('AIzaSyAZZDunogNzFD3v59T-q4K-GpThdrkDUJs'); // Replace with your API key
+      final GeminiServiceBooks geminiService = GeminiServiceBooks('YOUR-SECRET-API'); // Replace with your API key
 
       // Call the Gemini service with the extracted text and the specific query
       String? geminiResult = await geminiService.extractBookDetails(extractedText);
