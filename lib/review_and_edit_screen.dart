@@ -65,8 +65,8 @@ class _ReviewAndEditScreenState extends State<ReviewAndEditScreen> {
     subjectsController.text = widget.entities['Subjects'] ?? '';
 
     // Initialize services with API key and base URL
-    geminiService = GeminiService('AIzaSyAZZDunogNzFD3v59T-q4K-GpThdrkDUJs'); // Replace with actual API key
-    cutterNumberService = CutterNumberService('https://cutter-number-backend-33dd1abc59a8.herokuapp.com');
+    geminiService = GeminiService('YOUR-API-KEY'); // Replace with actual API key
+    cutterNumberService = CutterNumberService('YOUR-API-KEY');
 
     // Fetch additional data (Classification Number, Cutter Number, and Subjects)
     _fetchAdditionalData();
