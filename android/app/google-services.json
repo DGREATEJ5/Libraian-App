@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "143265508015",
+    "project_id": "thesis-app-6e431",
+    "storage_bucket": "thesis-app-6e431.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:143265508015:android:bf48883abec266e032025a",
+        "android_client_info": {
+          "package_name": "com.example.thesis_nlp_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtXiB5BJYuSiIP3HaHloNpcebZ3c_Qo0I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
